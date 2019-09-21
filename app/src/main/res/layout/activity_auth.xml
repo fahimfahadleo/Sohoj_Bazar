@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Auth">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:padding="8dp"
+        android:id="@+id/textfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/border"
+        android:text=""/>
+
+    <EditText
+        android:id="@+id/codefield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="8dp"
+        android:hint="ভেরিফিকেশান নাম্বারটি লিখুন"
+        android:background="@drawable/border"
+        android:padding="8dp"
+        android:inputType="text"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/continuebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:padding="4dp"
+        android:text="ভেরিফাই করুন"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>

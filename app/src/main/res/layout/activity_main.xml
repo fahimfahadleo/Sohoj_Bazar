@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <EditText
+        android:id="@+id/namefield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="8dp"
+        android:hint="আপনার নাম লিখুন"
+        android:background="@drawable/border"
+        android:padding="8dp"
+        android:inputType="text"
+        android:layout_marginEnd="8dp"
+        android:drawablePadding="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/phonenumberfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:inputType="phone"
+        android:hint="আপনার মোবাইল নম্বর লিখুন"
+        android:background="@drawable/border"
+        android:padding="8dp"
+        android:drawablePadding="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border"
+        android:padding="4dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:text="প্রবেশ করুন"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    </LinearLayout>

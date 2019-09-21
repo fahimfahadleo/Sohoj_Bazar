@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "43665332437",
+    "firebase_url": "https://sohoj-bazar-62fb9.firebaseio.com",
+    "project_id": "sohoj-bazar-62fb9",
+    "storage_bucket": "sohoj-bazar-62fb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43665332437:android:7a75200bf9fd84b5",
+        "android_client_info": {
+          "package_name": "com.sohojbazar.sohojbazar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43665332437-pug97fdbnp41iddnjr7npf01g93bakhf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sohojbazar.sohojbazar",
+            "certificate_hash": "cad2727e5133b0ab00478a33bcce2b13d09c9ad8"
+          }
+        },
+        {
+          "client_id": "43665332437-mgfo0soovd4kak68ce33lqsjmrs7v7tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDjn5o8ZHaoG5pINAuaT6q4-X9NHZV2rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43665332437-mgfo0soovd4kak68ce33lqsjmrs7v7tg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

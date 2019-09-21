@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".additem">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="200dp"
+                android:src="@drawable/ic_add_black_24dp"
+                android:id="@+id/addimageofnewproduct"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ছবি যোগ করুন"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="35dp"/>
+            <EditText
+                android:id="@+id/nameofnewproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="পন্যের নাম"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:inputType="text"/>
+            <EditText
+                android:id="@+id/nameofnewproducteng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="পন্যের নাম ইংরেজিতে"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:inputType="text"/>
+            <EditText
+                android:id="@+id/detailofnewproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="পন্যের বিবরন"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:maxLines="10"
+                android:layout_margin="8dp"
+                android:inputType="text"/>
+            <EditText
+                android:id="@+id/priceofnewproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="মুল্য"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:inputType="text"/>
+            <EditText
+                android:id="@+id/amounttypeofnewproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="পরিমান ধরন (, দিয়ে)eg.১০g,20g,1kg,2kg,1h,2h"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:inputType="text"/>
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:id="@+id/addelementtodb"
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:src="@drawable/ic_add_black_24dp"
+               android:layout_gravity="center"
+               android:layout_margin="16dp"/>
+
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:max="100"
+                android:background="@drawable/border"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

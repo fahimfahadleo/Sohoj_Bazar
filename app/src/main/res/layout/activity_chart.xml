@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChartActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বাজারের ব্যাগ"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/chartitemlayout"/>
+
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="সব মিলিয়ে মুল্যঃ "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 টাকা"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/chartitemtotalprice"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:id="@+id/confirmchartitem"
+            android:src="@drawable/ic_send_black_24dp"/>
+
+    </LinearLayout>
+</LinearLayout>

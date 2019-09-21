@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group>
+        <item
+            android:id="@+id/chart"
+            android:title="বাজারের ব্যাগ"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp" />
+        <item
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="যোগাযোগ করুন"
+            android:id="@+id/contractus" />
+        <item
+            android:id="@+id/share"
+            android:title="শেয়ার করুন"
+            android:icon="@drawable/ic_share_black_24dp" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/addreference"
+            android:title="রেফারেন্স যোগ করুন"
+            android:icon="@drawable/ic_link_black_24dp"/>
+        <item
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Log Out"
+            android:id="@+id/logout" />
+    </group>
+
+</menu>
